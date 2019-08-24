@@ -1,0 +1,220 @@
+html,
+body,
+.cover {
+    height: 100%;
+    background: black;
+    font-size: 100%;
+}
+
+
+.cover {
+    background: url('images1/photo4.jpg') top left no-repeat;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    padding: 0 20%;
+
+}
+
+.cover-text {
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.cover-text h1 {
+    margin: 0;
+    font-size: 70px;
+    letter-spacing: -3px;
+}
+
+nav.navbar-inverse {
+    background: #222;
+    border: none;
+}
+
+.btn:link {
+  color: white;
+}
+
+.btn:visited {
+  color: white;
+}
+
+a:link {
+  color: grey;
+}
+
+a:visited {
+  color: grey;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a.inline-link:link {
+  color: #35eda1;
+  text-transform: uppercase;
+}
+
+a.inline-link:visited {
+  color: #35eda1;
+  text-transform: uppercase;
+}
+
+a.inline-link:hover {
+  color: #6d7182;
+  text-transform: uppercase;
+}
+
+ img {
+   border-radius: 10px;
+   margin: 30px auto;
+   display: block;
+ }
+
+section {
+  background: black;
+  color: white;
+  padding: 100px;
+  margin-top: 20px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+#projects {
+  background: black;
+  color: white;
+  padding: 0;
+  margin-top: 20px;
+}
+
+
+#several {
+
+  margin: 20px;
+  opacity:.9;
+
+}
+
+.pr {
+
+  height: 300px;
+  text-align:left;
+  border-radius: 10px;
+
+}
+
+.pr#project1 {
+
+  background: url('images1/smartwatch_storyboard.jpg');
+  background-color: black;
+  background-size:cover;
+
+
+}
+
+.pr#project2 {
+  background: url('images1/orbit.png');
+  background-color: black;
+  background-size:cover;
+}
+.pr#project3 {
+  background: url('images1/artplay1.jpg');
+  background-color: black;
+  background-size:cover;
+}
+.pr#project4 {
+  background: url('images1/deli.svg');
+  background-color: black;
+  background-size:cover;
+}
+
+.pr#project5 {
+  background: url('images1/demo.png');
+  background-color: black;
+  background-size:cover;
+}
+
+
+.pr:hover {
+  opacity: .3;
+}
+
+#myContacts {
+
+  max-width: 280px;
+  height: 220px;
+  text-align: center;
+  border-radius: 20px;
+  background: #000000;
+  padding: 10px;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+
+
+
+}
+
+#color {
+    background: url('images1/color-2.png') top left no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+
+#game {
+margin:0;
+ display: grid;
+ grid-template-columns: repeat(auto-fill, 50%);
+}
+
+.modal-header h4 {
+  color: black;
+}
+
+
+.tab-content p {
+  margin-top: 30px;
+}
+
+
+
+footer {
+    background: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    margin: 0;
+}
+
+
+
+/* Media Queries */
+
+
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+  footer {
+    font-size: 12px
+  }
+}
+
+@media only screen and ( max-width : 568px ) {
+    .cover h1 {
+        font-size: 40px;
+    }
+    section {
+        padding: 20px;
+    }
+
+}
