@@ -141,6 +141,11 @@ section {
   background-size:cover;
 }
 
+.pr#project6 {
+  background: url('images1/web_dev_big.jpg');
+  background-color: black;
+  background-size:cover;
+}
 
 .pr:hover {
   opacity: .3;
