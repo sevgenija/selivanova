@@ -147,6 +147,12 @@ section {
   background-size:cover;
 }
 
+
+.pr#project8 {
+  background: url('images1/icon_set.png');
+  background-color: black;
+  background-size:cover;
+}
 .pr:hover {
   opacity: .3;
 }
