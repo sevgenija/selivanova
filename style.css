@@ -79,7 +79,7 @@ section {
   background: black;
   color: white;
   padding: 100px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .img-fluid {
@@ -91,7 +91,8 @@ section {
   background: black;
   color: white;
   padding: 0;
-  margin-top: 20px;
+  margin-top: 50px;
+
 }
 
 
@@ -100,6 +101,8 @@ section {
   margin: 20px;
   opacity:.9;
 
+
+
 }
 
 .pr {
@@ -107,6 +110,8 @@ section {
   height: 300px;
   text-align:left;
   border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 100px;
 
 }
 
@@ -123,36 +128,50 @@ section {
   background: url('images1/orbit.png');
   background-color: black;
   background-size:cover;
+
 }
 .pr#project3 {
   background: url('images1/artplay1.jpg');
   background-color: black;
   background-size:cover;
+
 }
 .pr#project4 {
   background: url('images1/food_delivery/Food-delivery-app.png');
   background-color: black;
   background-size:cover;
+
 }
 
 .pr#project5 {
   background: url('images1/demo.png');
   background-color: black;
   background-size:cover;
+
 }
 
 .pr#project6 {
   background: url('images1/web_dev_big.jpg');
   background-color: black;
   background-size:cover;
+
 }
 
 
 .pr#project8 {
-  background: url('images1/icon_set.png');
+  background: url('images1/icons.svg');
   background-color: black;
   background-size:cover;
+
 }
+
+.pr#project9 {
+  background: url('images1/story.png');
+  background-color: black;
+  background-size:cover;
+
+}
+
 .pr:hover {
   opacity: .3;
 }
